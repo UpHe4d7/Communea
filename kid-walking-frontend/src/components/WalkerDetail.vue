@@ -137,7 +137,7 @@ export default {
 <style scoped>
 .walker-detail {
   padding: 20px;
-  width: 80%;
+  width: 100%;
   max-width: 1200px;
   box-sizing: border-box;
 }
@@ -168,8 +168,10 @@ export default {
 }
 
 .walker-image {
-  width: 150px;
-  height: 150px;
+  width: 40%;
+  height: 40%;
+  max-width: 150px;
+  max-height: 150px;
   border-radius: 50%;
   margin-right: 20px;
 }
